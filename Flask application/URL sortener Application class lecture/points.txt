@@ -1,0 +1,22 @@
+1. no regex just go for request library status code 
+request.status
+
+
+Short notes on Project:
+
+Technologies:
+Frontend: HTML
+Backend: Flask, SQLAlchemy
+
+Web Pages to be made:
+('/') index.html: 
+
+1. There needs to a form with textfield and button named 'shorten'.
+
+2. As you press button ('shorten') there should be a textfield containg 
+shorten url plus copy button next to it.
+
+('/history') history.html:
+
+
+

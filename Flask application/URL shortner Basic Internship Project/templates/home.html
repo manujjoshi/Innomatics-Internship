@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}shorten URL{% endblock %}
+
+{% block content %}
+    <h3>Enter url to shorten</h3><br><br>
+<form method="post">
+    <label for="url"><b>Enter an https:// URL:</b></label>
+
+    <input type="url" name="inp_1" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="50"
+       required>
+    <input type="submit" value="Shorten" class="btn btn-primary"><br /><br /><br /></form>
+    <form>
+    <b>Shorten Url:</b>&nbsp;&nbsp;&nbsp;http://127.0.0.1:5000/sh/{{ short_url }}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+
+    <form><input type="submit" value="Copy" class="btn btn-primary"></form>
+
+{% endblock %}

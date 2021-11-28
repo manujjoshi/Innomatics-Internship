@@ -1,0 +1,5 @@
+Commands to extablish connections 
+
+python3 -m flask db init
+python3 -m flask db migrate -m 'First Migration
+python3 -m flask db upgrade

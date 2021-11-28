@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register Page</h1>
+    <a href="{{url_for('login')}}">Already have an account? Log In</a><br>
+    <br>
+    <br><form method='post'>
+        Enter Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' name='register_username'><br><br>
+        Enter Password:&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' name='register_password'><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

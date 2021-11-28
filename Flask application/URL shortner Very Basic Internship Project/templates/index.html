@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+
+{% block body %}
+<br />
+<h1> Welcome to URL shortener Web Application</h1>
+<br />
+<br />
+<br />
+<form method='post'>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;<b>Enter Url:</b> <input type='url' name='inp_1',placeholder='Enter URL here'>
+    <button>Shorten</button>
+</form>
+<br />
+<form >      
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;<b>Shorten Url:</b> http://127.0.0.1:5000/sh/{{ short_url }} 
+    <button>Copy</button>
+      
+</form>
+{% endblock %}

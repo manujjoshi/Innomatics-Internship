@@ -1,0 +1,26 @@
+
+{% extends 'layout.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+
+{% block body %}
+<form method='post'>
+    Input Text: &nbsp;&nbsp;
+    <input type="text" name='inp_1'><br><br>
+    Enter regex:&nbsp;&nbsp;
+    <input type="text" name='inp_2'><br><br>
+    <input type="submit" value="process">
+</form>
+
+
+Items: {% for i in matched_items %}
+{{ i }}
+{% endfor %}
+
+{% endblock %}
+
+
+

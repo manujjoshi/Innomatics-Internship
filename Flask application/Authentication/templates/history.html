@@ -1,0 +1,15 @@
+{% block title %}
+{% endblock %}
+
+
+{% block content %}
+<br />
+<h2> Welcome to the History Page</h2>
+<h3>Here you can see all Stored Credientials</h3>
+<br />
+<ul>
+{% for i in user %}
+    <li>{{ i }}</li>
+</ul>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+History
+{% endblock %}
+
+
+{% block body %}
+<br />
+<h1> Welcome to the History Page</h1>
+<h3>Here you can see all previously Shortened URLS's</h3>
+<br />
+{% for key in data %}
+{{ data[key] }} = {{ key }}
+{% endfor %}
+{% endblock %}

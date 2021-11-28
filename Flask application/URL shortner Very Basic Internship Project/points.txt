@@ -1,0 +1,16 @@
+Commands to extablish connections 
+
+python3 -m flask db init
+python3 -m flask db migrate -m 'First Migration
+python3 -m flask db upgrade
+
+
+
+Things done:
+Made a copy button and use copied to clipboard through pyperclip
+Redirection
+Take only Valid url's
+
+Things to do:
+Should give previous urls if they exist already
+login logout functionality
